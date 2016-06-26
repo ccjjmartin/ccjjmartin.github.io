@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2016-06-26 17:47:49 -0500
+categories: general
+---
+Welcome to ccjjmartin's github-pages site.  This site will serve as a personal
+blog and my public testing of the Jekyll system.  Glad your here.
+
+More to come soon.
