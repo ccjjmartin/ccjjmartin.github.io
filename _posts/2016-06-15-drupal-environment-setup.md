@@ -5,7 +5,6 @@ description: "A brief summary of the must have tools for success in Drupal."
 tags: [video]
 categories: [intro]
 time: 90 minutes
-modified: 2016-07-30
 image:
   background: triangular.png
 ---
@@ -15,6 +14,9 @@ image:
 {:/nomarkdown}
 
 Basics of setting up your Drupal Environment.
+
+GitHub Repository:
+[GitHub Repo](https://github.com/ccjjmartin/setup.environment)
 
 <!-- more -->
 
