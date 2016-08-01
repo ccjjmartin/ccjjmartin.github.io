@@ -37,9 +37,6 @@ mobile, tablet, and desktop devices.
 * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+
 and all modern browsers.
 * Sweet topbar animated menu with support for drop-downs.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and
-[Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social
-sharing experience.
 * Simple 404 page.
 * Stylesheets for Pygments and Coderay [syntax highlighting]
 (http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make
@@ -51,3 +48,6 @@ your code examples look snazzy.
 TODO
 ----
 * [Disqus](http://disqus.com) comments and social sharing links.
+* [Open Graph](https://developers.facebook.com/docs/opengraph/) and
+[Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social
+sharing experience.
