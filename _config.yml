@@ -62,7 +62,7 @@ owner:
   name:           Christopher Martin
   site:           http://ccjjmartin.github.io
   avatar:         images/avatar.jpg
-  bio:            "Employed as Junior Engineer at Four Kitchens."
+  bio:            "Employed as Support Engineer at Four Kitchens."
   email:          chris.martin@fourkitchens.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: ccjjmartin # if no twitter in this config, the twitter follow button will be removed
