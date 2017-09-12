@@ -1,0 +1,37 @@
+
+$tag-red-inactive: hsl(233, 23%, 93%);
+$tag-red-active: hsl(211, 95%, 92%);
+
+.tags {
+  .tag-container {
+    @include clearfix();
+  }
+
+  ul.tag-list {
+    list-style-type: none;
+    min-height: 100%;
+    height: auto;
+    padding: 0;
+
+    li.tag-entry-title {
+      @include clearfix();
+
+      margin: 3em 0;
+      text-decoration: none;
+      color: #c00;
+
+      a {
+        background-color: $tag-red-inactive;
+        border: 1px solid $tag-red-inactive;
+        border-radius: 5px;
+        color: #000;
+        margin-right: 10px;
+        padding: 10px;
+
+        &:hover {
+          background-color: $tag-red-active;
+        }
+      }
+    }
+  }
+}
