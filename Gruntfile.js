@@ -96,11 +96,11 @@ module.exports = function(grunt) {
     'clean',
     'uglify',
     'imagemin',
-    'svgmin',
     'cssmin'
   ]);
   grunt.registerTask('dev', [
-    'watch'
+    'watch',
+    'svgmin'
   ]);
 
 };
