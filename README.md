@@ -18,7 +18,7 @@ http://localhost:4000
 
 LIVE
 ----
-Demo: http://ccjjmartin.github.io
+Demo: https://www.ccjjmartin.com
 
 
 UPDATES

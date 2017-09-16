@@ -9,8 +9,8 @@
 title: CCJJMARTIN
 description: Personal blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ccjjmartin.github.io" # the base hostname & protocol for your site
 # url: "http://127.0.0.1:4000" # Uncomment for local development.
+url: "https://www.ccjjmartin.com" # the base hostname & protocol for your site
 # put your disqus here
 disqus_shortname:
 reading_time:     true # if true, shows the estimated reading time for a post
@@ -60,7 +60,7 @@ menu:
 # Owner/author information
 owner:
   name:           Christopher Martin
-  site:           http://ccjjmartin.github.io
+  site:           https://ccjjmartin.github.io
   avatar:         images/avatar.jpg
   bio:            "Employed as Support Engineer at Four Kitchens."
   email:          chris.martin@fourkitchens.com
