@@ -60,18 +60,19 @@ menu:
 # Owner/author information
 owner:
   name:           Christopher Martin
-  site:           https://ccjjmartin.github.io
+  site:           https://www.ccjjmartin.com
   avatar:         images/avatar.jpg
   bio:            "Employed as Support Engineer at Four Kitchens."
   email:          chris.martin@fourkitchens.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: ccjjmartin # if no twitter in this config, the twitter follow button will be removed
-  # GitHub nick for use in follow button in author block.
-  github: ccjjmartin
+  # twitter: ccjjmartin # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nickname for use in follow button in author block.
+  # github: ccjjmartin
+  # Not using this for performance reasons
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
-twitter:
+# twitter:
 
 # Social networking links used in author block underneath posts. Update and
 # remove as you like.
