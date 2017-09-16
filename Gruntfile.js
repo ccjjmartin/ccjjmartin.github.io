@@ -61,6 +61,17 @@ module.exports = function(grunt) {
         'assets/js/scripts.min.js'
       ]
     },
+    cssmin: {
+      target: {
+        files: [{
+          expand: true,
+          cwd: 'assets/css',
+          src: ['*.css', '!*.min.css'],
+          dest: 'assets/css',
+          ext: '.min.css'
+        }]
+      }
+    },
 
     githooks: {
       all: {
@@ -78,13 +89,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-githooks');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'uglify',
     'imagemin',
-    'svgmin'
+    'svgmin',
+    'cssmin'
   ]);
   grunt.registerTask('dev', [
     'watch'
