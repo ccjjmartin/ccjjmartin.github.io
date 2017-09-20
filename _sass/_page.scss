@@ -469,10 +469,9 @@ ul.social-buttons li a:active {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	height: 50px;
+	min-height: 300px;
 	@media #{$medium} {
 		background-color: $header-color;
-		min-height: 300px;
 	}
 }
 .header-toggle{
@@ -497,22 +496,17 @@ ul.social-buttons li a:active {
 	}
 	h2 {
 		color: $white;
+    text-shadow: 1px 1px 4px rgba(black, 1);
 	}
 	h1 {
 		font-weight: 700;
 		margin-bottom: 20px;
-		@include font-rem(32);
-		color: $white;
-		text-shadow: 1px 1px 4px rgba($base-color, 0.6);
+		@include font-rem(30);
+		color: $primary-darker;
+		text-shadow: 1px 1px 4px rgba(white, 1);
 		display: block;
 		a {
 			color: $white;
-		}
-		@media #{$medium} {
-			@include font-rem(26);
-		}
-		@media #{$large} {
-			@include font-rem(36);
 		}
 	}
 	h1.post-title{
@@ -523,6 +517,7 @@ ul.social-buttons li a:active {
 	}
 	p {
 		color: $white;
+    text-shadow: 1px 1px 4px rgba(black, 1);
 	}
 }
 .header-menu {

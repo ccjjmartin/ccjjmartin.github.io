@@ -11,6 +11,11 @@ sitemap: false
  *
 */
 
+// Custom colors.
+@import "colors";
+@import "header";
+@import "tags";
+
 // Partials
 @import "variables";
 @import "mixins";
@@ -26,7 +31,3 @@ sitemap: false
 @import "animations";
 @import "dl-menu";
 @import "page";
-
-// Custom stuff.
-@import "colors";
-@import "tags";
